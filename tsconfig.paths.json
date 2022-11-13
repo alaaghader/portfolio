@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "&locales/*": ["src/locales/*"],
+      "&config/*": ["src/config/*"]
+    }
+  }
+}
