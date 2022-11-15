@@ -3,7 +3,8 @@
     "baseUrl": "./",
     "paths": {
       "&locales/*": ["src/locales/*"],
-      "&config/*": ["src/config/*"]
+      "&config/*": ["src/config/*"],
+      "&components/*": ["src/components/*"]
     }
   }
 }
