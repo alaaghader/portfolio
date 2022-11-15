@@ -6,6 +6,7 @@ module.exports = function override(config) {
       ...config.alias,
       '&locales': path.resolve(__dirname, 'src/locales'),
       '&config': path.resolve(__dirname, 'src/config'),
+      '&components': path.resolve(__dirname, 'src/components'),
     },
   };
   return config;
