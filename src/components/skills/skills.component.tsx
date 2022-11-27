@@ -1,6 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { CheckBadgeIcon } from '@heroicons/react/24/solid';
+
 import { skills } from './skills.data';
 
 const Skills = () => {
