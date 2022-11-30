@@ -2,6 +2,8 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { ArrowRightIcon } from '@heroicons/react/24/solid';
 
+import Resume from '&assets/documents/AlaaGhader-CV.pdf';
+
 const Navbar = () => {
   const { t } = useTranslation(['navbar']);
 
@@ -14,11 +16,17 @@ const Navbar = () => {
           </a>
         </a>
         <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-base justify-center">
-          <a href="#projects" className="mr-5 hover:text-white">
+          <a
+            href="https://github.com/alaaghader"
+            className="mr-5 hover:text-white"
+          >
             {t('PAST_WORK')}
           </a>
           <a href="#skills" className="mr-5 hover:text-white">
             {t('SKILLS')}
+          </a>
+          <a href={Resume} className="mr-5 hover:text-white">
+            {t('RESUME')}
           </a>
         </nav>
         <a
